@@ -1,17 +1,14 @@
 h1 {
-    background-image: url(./src/headerr2.jpg);
+    
     color: yellow;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100cm;
     text-align: center;
-    padding-bottom: 100px;
-    padding-top: 100px;
     
- 
  }
 
  .espacio{
-     background-color: #F4E2DE;
-     padding-top: 50px;
-     padding-bottom: 50px;
+     background-image: url(./src/headerr2.jpg);
+     padding-top: 200px;
+     padding-bottom: 200px;
  }

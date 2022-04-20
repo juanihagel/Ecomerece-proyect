@@ -15,19 +15,18 @@ selecTipo.addEventListener("change", () => {
         contenedorProductos.innerHTML = "";
         array.forEach(StockProductos => {
             let div = document.createElement("div")
-            div.className = "prodcuto"
+            div.className = "producto"
             
-            div.innerHTML =
-               
+            div.innerHTML =`               
                 <div class="card" style="width: 18rem;">
-                    <span>${producto.nombre} </span>
-                    <a id="boton${producto.id}"></a>
+                    <span>${StockProductos.nombre} </span>
+                    <a id="boton${StockProductos.id}"></a>
                     <div class="card-body">
-                        <p>${producto.desc} </p>
-                        <p>${producto.precio} </p>
+                        <p>${StockProductos.desc} </p>
+                        <p>${StockProductos.precio} </p>
                     </div>
-                </div>
-            contenedorProductos.appendChild(div)
+                </div>`
+            contenedorProductos.appendChild(div);
         }
         )
     }
