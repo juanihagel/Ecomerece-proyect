@@ -1,14 +1,48 @@
-h1 {
-    
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+.main-header {
+    margin: 5px;
+
+}
+
+.titulo-principal {
+
     color: yellow;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 100cm;
+    font-size: 100px;
     text-align: center;
-    
- }
 
- .espacio{
-     background-image: url(./src/headerr2.jpg);
-     padding-top: 200px;
-     padding-bottom: 200px;
- }
+}
+
+.espacio {
+    background-image: url(./src/headerr2.jpg);
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+
+.main-header__container{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-selector{
+    font-size: 15px;
+    border: 1px solid black;
+    display: block;
+    padding: 10px 20px;
+    
+}
