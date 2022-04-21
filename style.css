@@ -14,6 +14,7 @@ img {
 
 .main-header {
     margin: 5px;
+    background-color: rgba(250, 234, 215, 0.701);
 
 }
 
@@ -23,6 +24,7 @@ img {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100px;
     text-align: center;
+    
 
 }
 
@@ -35,14 +37,15 @@ img {
 
 .main-header__container{
     display: flex;
-    justify-content: center;
-    
-}
-
-.main-selector{
+    justify-content: left;
     font-size: 15px;
-    border: 1px solid black;
     display: block;
     padding: 10px 20px;
     
 }
+
+.main-header__utilities{
+    display: flex;
+    justify-content:flex-end;
+}
+
