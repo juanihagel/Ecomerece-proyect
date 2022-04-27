@@ -1,5 +1,5 @@
 let StockProductos = [
-    { id: 1,nombre: "TINTO-1", tipo: "tinto", desc: "...", precio: 800,}, 
+    { id: 1,nombre: "TINTO-1", tipo: "tinto", desc: "...", precio: 800, Image: new Image("src\blanco-2.jpg")}, 
     { id: 2,nombre: "TINTO-2", tipo: "tinto", desc: "...", precio: 800 },
     { id: 3,nombre: "TINTO-3", tipo: "tinto", desc: "...", precio: 800 },
     { id: 4,nombre: "TINTO-4", tipo: "tinto", desc: "...", precio: 1400 },

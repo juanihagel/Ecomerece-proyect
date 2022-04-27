@@ -30,8 +30,8 @@ img {
 
 .espacio {
     background-image: url(./src/headerr2.jpg);
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 
@@ -49,3 +49,32 @@ img {
     justify-content:flex-end;
 }
 
+.producto{ 
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.btns {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.btns button {
+    padding: 15px 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+
+.btns button:hover,.btns button.active {
+    background: blueviolet;
+    color: #fff;
+}

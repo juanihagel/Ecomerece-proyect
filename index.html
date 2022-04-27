@@ -13,6 +13,9 @@
   <!-- Iconos -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
+  <!-- sweetalert2 -->
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
   <title>Document</title>
 
 </head>
@@ -21,7 +24,7 @@
   <header class="main-header">
     <div class="container">
       <h1 class="titulo-principal">VINOTECA</h1>
-      <div class="main-header__container">
+      <!-- <div class="main-header__container">
         <select id="selecTipo">
           <option value="todos">TODOS</option>
           <option value="tintos">TINTOS</option>
@@ -29,11 +32,31 @@
           <option value="rosados">ROSADOS</option>
           <option value="espumantes">ESPUMANTES</option>
         </select>
+      </div>  -->
+
+      <div id="selecTipo" class="btns">
+        <button type="button" value="all">All</button>
+        <button type="button" value="tintos"> Tintos</button>
+        <button type="button" value="blancos">Blancos</button>
+        <button type="button" value="rosados">Rosados</button>
+        <button type="button" value="espumantes">Espumantes</button>
+
       </div>
-      <div class="main-header__utilities">
-        <input type="serch"class="serch"><i class="fa-solid fa-magnifying-glass"></i>
-        <a href="usuarios.html">COMPRAR <i class="fa-solid fa-cart-shopping"></i></a>
+
+    </div>
+    <nav class="navbar navbar-light bg-light">
+      <div class="container-fluid">
+
+        <form class="d-flex justify-content-center">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+
       </div>
+    </nav>
+    <div class="main-header__utilities">
+      <a href="usuarios.html">COMPRAR <i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
     </div>
   </header>
 
